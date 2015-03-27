@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1427400308 source:/home/webdude/Programming/Cpp-OOP/PhoneShop/main.cpp
+	<iostream>
+	<Phone.h>
+
+1427434736 source:/home/webdude/Programming/Cpp-OOP/PhoneShop/src/Phone.cpp
+	"Phone.h"
+
+1427400089 /home/webdude/Programming/Cpp-OOP/PhoneShop/include/Phone.h
+	<string>
+
