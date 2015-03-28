@@ -7,12 +7,12 @@ class Phone
     public:
         Phone(std::string brand, std::string model, int colorDepth);
         virtual ~Phone();
-        std::string Getmodel() { return model; }
-        void Setmodel(std::string val) { model = val; }
-        int GetcolorDepth() { return colorDepth; }
-        void SetcolorDepth(int val) { colorDepth = val; }
-        std::string Getbrand() { return brand; }
-        void Setbrand(std::string val) { brand = val; }
+        std::string GetModel() { return model; }
+        void SetModel(std::string val) { model = val; }
+        int GetColorDepth() { return colorDepth; }
+        void SetColorDepth(int val) { colorDepth = val; }
+        std::string GetBrand() { return brand; }
+        void SetBrand(std::string val) { brand = val; }
     protected:
     private:
         std::string model;
@@ -20,4 +20,4 @@ class Phone
         std::string brand;
 };
 
-#endif // PHONE_H
+#endif

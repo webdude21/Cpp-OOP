@@ -3,9 +3,9 @@
 Phone::Phone(std::string brand, std::string model, int colorDepth)
 {
     //ctor
-    this->Setbrand(brand);
-    this->Setmodel(model);
-    this->SetcolorDepth(colorDepth);
+    this->SetBrand(brand);
+    this->SetModel(model);
+    this->SetColorDepth(colorDepth);
 }
 
 Phone::~Phone()
