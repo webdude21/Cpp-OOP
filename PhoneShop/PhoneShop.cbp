@@ -34,9 +34,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Call.h" />
 		<Unit filename="include/Phone.h" />
 		<Unit filename="include/SmartPhone.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Call.cpp" />
 		<Unit filename="src/Phone.cpp" />
 		<Unit filename="src/SmartPhone.cpp" />
 		<Extensions>
