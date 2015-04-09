@@ -30,12 +30,12 @@ std::vector<Call*>* SmartPhone::GetCallHistory()
 
 std::string SmartPhone::PrintCallHistory()
 {
-	// Method is not working corectly
 	std::vector<Call*>* calls = this->GetCallHistory();
-	std::string bufferString = "";
+	std::string bufferString;
 	std::vector<Call*>::iterator iter;
-	for (iter = calls->begin(); iter != calls->end(); iter++) {
-		bufferString += (*iter)->GetCallDuration() + " ";
+
+	for (auto call : *calls){
+		bufferString = bufferString + "\nCall duration: " + std::to_string(call->GetCallDuration());
 	}
 
 	return bufferString;
