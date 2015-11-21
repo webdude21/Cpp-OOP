@@ -5,11 +5,11 @@ Call::Call(int callDuration) {
     this->callDuration = callDuration;
 }
 
-int Call::GetCallDuration() {
+int Call::getCallDuration() {
     return this->callDuration;
 }
 
-time_t Call::GetCallStart() {
+time_t Call::getCallStart() {
     return this->callStart;
 }
 

@@ -9,9 +9,9 @@ public:
 
     virtual ~Call();
 
-    time_t GetCallStart();
+    time_t getCallStart();
 
-    int GetCallDuration();
+    int getCallDuration();
 
 protected:
 private:

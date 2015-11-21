@@ -3,32 +3,32 @@
 using namespace std;
 
 Phone::Phone(string brand, string model, int colorDepth) {
-    this->SetBrand(brand);
-    this->SetModel(model);
-    this->SetColorDepth(colorDepth);
+    this->setBrand(brand);
+    this->setModel(model);
+    this->setColorDepth(colorDepth);
 }
 
-string Phone::GetModel() {
+string Phone::getModel() {
     return this->model;
 }
 
-void Phone::SetModel(string val) {
+void Phone::setModel(string val) {
     this->model = val;
 }
 
-int Phone::GetColorDepth() {
+int Phone::getColorDepth() {
     return this->colorDepth;
 }
 
-void Phone::SetColorDepth(int val) {
+void Phone::setColorDepth(int val) {
     this->colorDepth = val;
 }
 
-string Phone::GetBrand() {
+string Phone::getBrand() {
     return this->brand;
 }
 
-void Phone::SetBrand(string val) {
+void Phone::setBrand(string val) {
     this->brand = val;
 }
 

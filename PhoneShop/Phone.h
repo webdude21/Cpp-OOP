@@ -11,17 +11,17 @@ public:
 
     virtual ~Phone();
 
-    string GetModel();
+    string getModel();
 
-    void SetModel(string val);
+    void setModel(string val);
 
-    int GetColorDepth();
+    int getColorDepth();
 
-    void SetColorDepth(int val);
+    void setColorDepth(int val);
 
-    string GetBrand();
+    string getBrand();
 
-    void SetBrand(string val);
+    void setBrand(string val);
 
 protected:
 private:

@@ -6,8 +6,8 @@ using namespace std;
 
 int main() {
     SmartPhone *iPhone = new SmartPhone("Apple", "Iphone 6", 256, "IOS");
-    iPhone->Add(new Call(10));
-    iPhone->Add(new Call(20));
-    puts(iPhone->ToString().c_str());
-    puts(iPhone->PrintCallHistory().c_str());
+    iPhone->add(new Call(10));
+    iPhone->add(new Call(20));
+    puts(iPhone->toString().c_str());
+    puts(iPhone->printCallHistory().c_str());
 }

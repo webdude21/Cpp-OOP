@@ -12,17 +12,17 @@ public:
 
     virtual ~SmartPhone();
 
-    std::string GetOperatingSystem();
+    std::string getOperatingSystem();
 
-    std::vector<Call *> *GetCallHistory();
+    std::vector<Call *> *getCallHistory();
 
-    void Add(Call *call);
+    void add(Call *call);
 
-    void SetOperatingSystem(std::string val);
+    void setOperatingSystem(std::string val);
 
-    std::string PrintCallHistory();
+    std::string printCallHistory();
 
-    std::string ToString();
+    std::string toString();
 
 protected:
 private:
